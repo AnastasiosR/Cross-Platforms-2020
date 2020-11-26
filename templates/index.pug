@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title='iNote'
+    meta(name='viewport',content='width=device-width,initial-scale=1.0')
+    link(href='style.css',rel='stylesheet')
+  body
+    .app-view
+      header
+        h1='iNote(6208)'
+        img(src='images/icon.png',class='logo')
+        button(id='remove') Clear
+      main
+        ul#task-list
+      footer
+        form#input-form
+          input(type='text',name='task-input',id='task-input',placeholder='add task')
+          button='+'
+    script(src='cordova.js')
+    script(src='main-min.js')

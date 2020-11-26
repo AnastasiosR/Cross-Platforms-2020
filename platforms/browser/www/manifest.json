@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "iNote",
+  "short_name": "iNote",
+  "version": "au.edu.nsw.ait.nsw.johannes",
+  "description": "iNote",
+  "author": "6208",
+  "icons": [],
+  "start_url": "index.html"
+}
